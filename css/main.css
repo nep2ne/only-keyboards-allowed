@@ -87,13 +87,18 @@ a:focus {
   top: -3em;
   background-color: #000;
   color: #fff;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   font-weight: bold;
   text-decoration: none;
 }
 
 .skip-links a:focus {
   top: 0;
+}
+
+.top-link {
+  background-color: #000;
+  color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
